@@ -1,0 +1,99 @@
+/* Universal styles */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: none;
+}
+
+p {
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+/* HERO STYLES */
+
+.hero {
+  background-image: url(/img/spencer_background_mobile.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: bottom right;
+  background-size: cover;
+  background-color: #22252f;
+  padding: 0 20px;
+  height: 100vh;
+}
+
+h1 {
+  font-family: Abril Fatface, serif;
+  padding-bottom: 6px;
+  font-size: 15vw;
+  line-height: 17vw;
+  background: -webkit-linear-gradient(-70deg, #da1b60, #ff8a00);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-text {
+  color: white;
+  position: relative;
+  top: 55vh;
+}
+
+.hero-intro {
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.hero-arrow {
+  position: relative;
+  top: 55vh;
+  margin-top: 15px;
+}
+
+/* MEDIA QUERIES */
+
+/* DESKTOP */
+
+@media screen and (min-width: 1200px) {
+  h1 {
+    font-size: 10vw;
+    line-height: 12vw;
+  }
+  .hero {
+    padding: 0 100px;
+  }
+  .hero-text {
+    top: 20vh;
+  }
+  .hero-arrow {
+    top: 20vh;
+  }
+}
+
+/* TABLET */
+
+@media screen and (min-width: 768px) {
+  .hero-text {
+    width: 332px;
+  }
+  h1 {
+    padding-bottom: 10px;
+  }
+  .hero {
+    background-image: url(/img/spencer_background.jpg);
+  }
+  .hero-text {
+    top: 20vh;
+  }
+  .hero-arrow {
+    top: 20vh;
+  }
+}
