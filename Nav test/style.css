@@ -8,7 +8,7 @@ body{
 }
 
 li a {
-  font-family: Abril Fatface, serif;
+  font-family: "Abril Fatface", serif;
   font-size: 50px;
   background: -webkit-linear-gradient(-70deg, #da1b60, #ff8a00);
   -webkit-background-clip: text;
