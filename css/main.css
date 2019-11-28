@@ -256,6 +256,7 @@ FEATURED styles
   margin-bottom: 0;
   padding-left: 1rem;
   padding-right: 1rem;
+  text-transform: uppercase;
 }
 
 .img-feat {
@@ -266,33 +267,68 @@ FEATURED styles
   font-family: var(--headline);
   font-weight: 400;
   font-size: 1.75rem;
-  margin-top: 0;
+  margin-top: .5rem;
   margin-bottom: 0;
 }
 
 .text {
   position: relative;
   font-family: var(--text);
-  font-weight: 300;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.dateline {
+  font-weight: 700;
+  font-size: .75rem;
+  text-transform: uppercase;
+  color: var(--bg-color);
+  margin-top: 1rem;
+}
+
+.link-container {
+  text-align: right;
+  margin-top: 1rem;
 }
 
 .project-link {
+  display: inline;
   position: relative;
   background: var(--gradient);
-  font-weight: 700;
+  font-weight: 300;
+  font-size: .75rem;
   color: white;
   padding: 0.5rem;
   width: fit-content;
   border: none;
+  text-transform: uppercase;
 }
 
-.project-link span {
-  width: 20px;
-  height: 0;
-  border-top: .25rem solid transparent;;
-  border-left: .5rem solid white;
-  border-bottom: .25rem solid transparent;;
+.featured-spacing {
+  margin: 4rem 0;
 }
+
+.placeholder {
+  background-color: var(--bg-color);
+  padding-top: 1rem;
+}
+
+.placeholder span {
+  display: block;
+  height: 0.25rem;
+  margin: 1.25rem 1rem;
+  position: relative;
+  background: var(--gradient, white);
+  transform-origin: 4px 0px;
+}
+
+.white {
+  color: white;
+}
+
+
+
 
 /* ==========================================================================
 MEDIA QUERIES
