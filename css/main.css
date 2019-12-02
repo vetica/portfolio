@@ -260,7 +260,7 @@ FEATURED styles
 }
 
 .img-feat {
-  margin: 0;
+  margin: 0.5rem 0 0 0;
 }
 
 .subhead {
@@ -325,6 +325,10 @@ FEATURED styles
 
 .white {
   color: white;
+}
+
+.text:nth-child() {
+  margin-bottom: 10rem;
 }
 
 
