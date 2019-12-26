@@ -86,7 +86,7 @@ NAV styles
 .nav-container {
   position: fixed;
   width: 100%;
-  /* background-color: #22252f; */
+  background: var(--bg-color);
   z-index: 100;
 }
 
@@ -95,6 +95,7 @@ NAV styles
   padding-top: 1rem;
   padding-bottom: 1rem;
   padding-right: 2rem;
+  background: var(--bg-color);
 }
 
 #btn-nav {
@@ -103,9 +104,7 @@ NAV styles
   width: 3.25rem;
   background-color: transparent;
   border: 2px solid white;
-  /* delete this later  */
   background: var(--bg-color);
-  border: 2px solid black;
 }
 
 #btn-nav span {
@@ -152,7 +151,7 @@ HERO styles
 ========================================================================== */
 
 .hero {
-  background-image: url(/img/spencer_background_mobile.jpg);
+  /* background-image: url(/img/spencer_background_mobile.jpg); */
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: bottom right;
@@ -166,7 +165,8 @@ HERO styles
   font-family: var(--headline);
   font-weight: 400;
   margin: 0;
-  padding-top: 7rem;
+  padding: auto;
+  padding-top: 10rem;
   padding-bottom: 2rem;
   font-size: 20vw;
   line-height: 21vw;
@@ -177,7 +177,7 @@ HERO styles
   position: relative;
   font-family: var(--text);
   font-weight: 300;
-  margin-top: 10rem;
+  margin-top: 8rem;
 }
 
 .hero-intro {
@@ -309,12 +309,12 @@ FEATURED styles
   margin: 4rem 0;
 }
 
-.placeholder {
+.other {
   background-color: var(--bg-color);
   padding-top: 1rem;
 }
 
-.placeholder span {
+.other span {
   display: block;
   height: 0.25rem;
   margin: 1.25rem 1rem;
@@ -327,12 +327,9 @@ FEATURED styles
   color: white;
 }
 
-.text:nth-child() {
-  margin-bottom: 10rem;
+.other > *:last-child {
+  padding-bottom: 3rem;
 }
-
-
-
 
 /* ==========================================================================
 MEDIA QUERIES
@@ -343,12 +340,6 @@ TABLET
 */
 
 @media screen and (min-width: 768px) {
-  .hero-head {
-    /* padding-bottom: 15px; */
-  }
-  .hero {
-    background-image: url(/img/spencer_background.jpg);
-  }
   .hero-text {
     width: 30rem;
     margin-top: 20rem;
