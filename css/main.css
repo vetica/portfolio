@@ -6,6 +6,7 @@ Base styles
 
 body {
   background: #2a2a2a;
+  font-family: "JetBrains Mono", monospace;
 }
 
 html {
@@ -80,6 +81,27 @@ Browser Upgrade Prompt
 Custom styles
 ========================================================================== 
 */
+
+/* Navbar */
+
+header {
+}
+
+.nav-container {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #2f2f2f;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.main-logo {
+  width: 50px;
+  height: 44px;
+}
 
 /* 
 ==========================================================================
