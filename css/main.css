@@ -12,11 +12,19 @@ body {
 
 html {
   color: white;
-  font-size: 1em;
+  font-size: 16px;
   line-height: 1.4;
 }
 
-/* Remove text-shadow in selection highlight and Vendor-prefixed and regular ::selection selectors cannot be combined */
+body,
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Remove text-shadow in selection highlight and Vendor-prefixed and regular :: selection selectors cannot be combined */
 
 ::-moz-selection {
   background: #b3d4fc;
@@ -81,6 +89,7 @@ Custom styles
 
 header {
   padding: 0.75em;
+  height: 50px;
 }
 
 .nav-container {
@@ -126,7 +135,7 @@ ul {
 }
 
 .active {
-  border-bottom: 3px solid goldenrod;
+  border-bottom: 3px solid #ffc627;
   padding-bottom: 1em;
 }
 
@@ -138,8 +147,7 @@ ul {
     flex-direction: column;
     justify-content: flex-start;
     padding: min(30vh, 10rem) 2em;
-    /* background: #2f2f2f; */
-    background: slateblue;
+    background: #525252;
     transform: translateX(100%);
     transition: transform 350ms ease-out;
   }
@@ -175,6 +183,42 @@ ul {
     border-bottom: none;
     padding-bottom: initial;
   }
+}
+
+/* Home section */
+
+.main-container {
+  display: flex;
+  box-sizing: border-box;
+  width: 100vw;
+  min-height: calc(100vh - 50px);
+  overflow-x: hidden;
+  overflow-y: hidden;
+  align-items: center;
+  justify-items: center;
+  padding: 10%;
+}
+
+.main-pic {
+  width: 25vw;
+  border-radius: 50%;
+  margin-right: 100px;
+}
+
+.main-title {
+  font-size: 15rem;
+  font-weight: 800;
+  letter-spacing: -0.5rem;
+  margin: 0 0 -40px -10px;
+  padding: 0;
+}
+
+.main-subhead {
+  font-size: 1.75rem;
+  font-weight: 100;
+  color: #ffc627;
+  margin: 0;
+  padding: 0;
 }
 
 /* 
