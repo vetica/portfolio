@@ -15,22 +15,12 @@
   </head>
 
   <body>
-    <!--[if IE]>
-      <p class="browserupgrade">
-        You are using an
-        <strong>outdated</strong>
-        browser. Please
-        <a href="https://browsehappy.com/">upgrade your browser</a>
-        to improve your experience and security.
-      </p>
-    <![endif]-->
-
-    <!-- navbar -->
     <header>
       <div class="nav-container">
         <img class="main-logo" src="img/logo_small.png" alt="logo" />
+        <button class="mobile-nav-toggle" aria-controls="primary-nav" aria-expanded="false"><span class="sr-only">Menu</span></button>
         <nav>
-          <ul id="primary-nav" class="primary-nav">
+          <ul id="primary-nav" data-visible="false" class="primary-nav">
             <li class="active">
               <a class="nav-link" href="#">
                 <span aria-hidden="true"></span>
