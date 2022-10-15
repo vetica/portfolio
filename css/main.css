@@ -14,6 +14,7 @@ html {
   color: white;
   font-size: 16px;
   line-height: 1.4;
+  scroll-behavior: ;
 }
 
 body,
@@ -22,6 +23,12 @@ html {
   width: 100%;
   margin: 0;
   box-sizing: border-box;
+}
+
+p {
+  font-size: calc(16px + 0.23vw - 0.7px);
+  line-height: 1.6;
+  letter-spacing: normal;
 }
 
 /* Remove text-shadow in selection highlight and Vendor-prefixed and regular :: selection selectors cannot be combined */
@@ -87,19 +94,18 @@ Custom styles
 
 /* Navbar */
 
-header {
-  padding: 0.75em;
-  height: 50px;
-}
-
 .nav-container {
-  width: 90%;
-  margin: 0 auto;
+  width: 100%;
+  padding: 20px;
+  margin: 0;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  z-index: 100;
+  background: #2a2a2a;
 }
 
 .primary-nav {
@@ -116,6 +122,7 @@ header {
 .main-logo {
   width: 40px;
   height: 35px;
+  /* margin-left: 3em; */
 }
 
 ul {
@@ -155,6 +162,11 @@ ul {
     margin-bottom: 2rem;
   }
 
+  .main-logo {
+    /* margin-top: 0.75em;
+    margin-left: 2em; */
+  }
+
   .primary-nav[data-visible="true"] {
     transform: translateX(0%);
   }
@@ -191,7 +203,7 @@ ul {
   display: flex;
   box-sizing: border-box;
   width: 100vw;
-  min-height: calc(100vh - 50px);
+  min-height: 100vh;
   overflow-x: hidden;
   overflow-y: hidden;
   align-items: center;
@@ -217,6 +229,22 @@ ul {
   font-size: 1.75rem;
   font-weight: 100;
   color: #ffc627;
+  margin: 0;
+  padding: 0;
+}
+
+/* About section */
+
+.about-section {
+  margin: 0 26vw;
+}
+
+.about-container {
+}
+
+.section-header {
+  font-size: 3rem;
+  font-weight: 800;
   margin: 0;
   padding: 0;
 }

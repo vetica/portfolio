@@ -13,50 +13,47 @@
 
     <meta name="theme-color" content="#fafafa" />
   </head>
-
   <body>
-    <header>
-      <div class="nav-container">
-        <img class="main-logo" src="img/logo_small.png" alt="logo" />
-        <button class="mobile-nav-toggle" aria-controls="primary-nav" aria-expanded="false"><span class="sr-only">Menu</span></button>
-        <nav>
-          <ul id="primary-nav" data-visible="false" class="primary-nav">
-            <li class="active">
-              <a class="nav-link" href="#">
-                <span aria-hidden="true"></span>
-                Home
-              </a>
-            </li>
-            <li>
-              <a class="nav-link" href="#">
-                <span aria-hidden="true"></span>
-                About
-              </a>
-            </li>
-            <li>
-              <a class="nav-link" href="#">
-                <span aria-hidden="true"></span>
-                Work
-              </a>
-            </li>
-            <li>
-              <a class="nav-link" href="#">
-                <span aria-hidden="true"></span>
-                Resume
-              </a>
-            </li>
-            <li>
-              <a class="nav-link" href="#">
-                <span aria-hidden="true"></span>
-                Contact
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+    <div class="nav-container">
+      <img class="main-logo" src="img/logo_small.png" alt="logo" />
+      <button class="mobile-nav-toggle" aria-controls="primary-nav" aria-expanded="false"><span class="sr-only">Menu</span></button>
+      <nav>
+        <ul id="primary-nav" data-visible="false" class="primary-nav">
+          <li class="active">
+            <a class="nav-link" href="#">
+              <span aria-hidden="true"></span>
+              Home
+            </a>
+          </li>
+          <li>
+            <a class="nav-link" href="#about">
+              <span aria-hidden="true"></span>
+              About
+            </a>
+          </li>
+          <li>
+            <a class="nav-link" href="#">
+              <span aria-hidden="true"></span>
+              Work
+            </a>
+          </li>
+          <li>
+            <a class="nav-link" href="#">
+              <span aria-hidden="true"></span>
+              Resume
+            </a>
+          </li>
+          <li>
+            <a class="nav-link" href="#">
+              <span aria-hidden="true"></span>
+              Contact
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
 
-    <section class="home">
+    <div class="home">
       <div class="main-container">
         <img class="main-pic" src="/img/me.png" alt="Spencer Holladay" />
         <div class="main-words">
@@ -66,11 +63,16 @@
           </div>
         </div>
       </div>
-    </section>
+    </div>
 
-    <section id="about" class="about">
-      <h1>About</h1>
-    </section>
+    <div id="about" class="about-section">
+      <div class="about-container">
+        <h1 class="section-header">About</h1>
+        <p class="about-graph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam itaque magni, nesciunt optio ullam maiores, voluptatum doloremque sint tenetur repellat minima, inventore soluta vel explicabo unde consequuntur quia excepturi adipisci.</p>
+        <p class="about-graph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam itaque magni, nesciunt optio ullam maiores, voluptatum doloremque sint tenetur repellat minima, inventore soluta vel explicabo unde consequuntur quia excepturi adipisci.</p>
+        <p class="about-graph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam itaque magni, nesciunt optio ullam maiores, voluptatum doloremque sint tenetur repellat minima, inventore soluta vel explicabo unde consequuntur quia excepturi adipisci.</p>
+      </div>
+    </div>
 
     <script src="js/vendor/modernizr-3.7.1.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
