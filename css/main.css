@@ -14,7 +14,7 @@ html {
   color: white;
   font-size: 16px;
   line-height: 1.4;
-  scroll-behavior: ;
+  scroll-behavior: smooth;
 }
 
 body,
@@ -26,7 +26,8 @@ html {
 }
 
 p {
-  font-size: calc(16px + 0.23vw - 0.7px);
+  font-size: calc(14px + 0.23vw - 0.7px);
+  font-weight: 200;
   line-height: 1.6;
   letter-spacing: normal;
 }
@@ -243,10 +244,116 @@ ul {
 }
 
 .section-header {
+  display: inline-block;
   font-size: 3rem;
   font-weight: 800;
   margin: 0;
   padding: 0;
+}
+
+/* Resume section */
+
+.resume-section {
+  margin: 10vw 26vw;
+}
+
+.resume-inline {
+  display: inline !important;
+}
+
+.resume-graph {
+  width: 100%;
+  height: 100%;
+  line-height: 1;
+}
+
+.resume-title {
+  font-size: calc(16px + 0.23vw - 0.7px);
+  font-weight: 800;
+  color: #ffc627;
+  margin-top: 2em;
+}
+
+.graph-section {
+  border-left: #ffc627 2px solid;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 2%;
+  margin-bottom: 100px;
+}
+
+.resume-subtitle {
+  font-size: calc(26px + 0.23vw - 0.7px);
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.resume-subhead {
+  font-size: calc(20px + 0.23vw - 0.7px);
+  font-weight: 800;
+  padding: 0;
+}
+
+.resume-company {
+  font-size: calc(16px + 0.23vw - 0.7px);
+  font-weight: 100;
+  padding: 0;
+}
+
+.resume-dates {
+  font-style: italic;
+  font-size: calc(14px + 0.23vw - 0.7px);
+  font-weight: 400;
+  margin: 0;
+}
+
+.resume-text {
+  font-size: calc(14px + 0.23vw - 0.7px);
+  font-weight: 200;
+}
+
+.resume-line {
+  color: inherit;
+  text-decoration-color: #ffc627;
+  text-underline-offset: 15%;
+}
+
+.resume-button {
+  display: flex;
+  justify-content: space-between;
+}
+
+.resume-dl {
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #ffc627;
+  border-radius: 10px;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: normal;
+  padding: 10px 20px;
+  outline: none;
+  align-items: baseline;
+}
+
+.resume-dl:disabled {
+  pointer-events: none;
+}
+
+.resume-dl:hover {
+  color: #2a2a2a;
+  background-color: #ffc627;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.resume-dl:active {
+  box-shadow: none;
+  transform: translateY(0);
 }
 
 /* 
