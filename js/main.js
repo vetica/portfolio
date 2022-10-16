@@ -13,6 +13,20 @@ navToggle.addEventListener("click", () => {
   }
 });
 
+// Adds and removes the "active" class
+const listItems = document.querySelectorAll(".target");
+
+function setActiveClass() {
+  if (document.querySelector(".active") != null) {
+    document.querySelector(".active").classList.remove("active");
+  }
+  this.classList.add("active");
+}
+
+listItems.forEach(item => {
+  item.addEventListener("click", setActiveClass);
+});
+
 // Stops animations and transitions on page resize
 let resizeTimer;
 window.addEventListener("resize", () => {

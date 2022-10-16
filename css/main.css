@@ -163,11 +163,6 @@ ul {
     margin-bottom: 2rem;
   }
 
-  .main-logo {
-    /* margin-top: 0.75em;
-    margin-left: 2em; */
-  }
-
   .primary-nav[data-visible="true"] {
     transform: translateX(0%);
   }
@@ -239,6 +234,7 @@ ul {
 .resume-section,
 .about-section,
 .work-section,
+.print-section,
 .resume-section,
 .contact-section {
   margin: 10vw 26vw;
@@ -252,7 +248,7 @@ ul {
   padding: 0;
 }
 
-/* Work section */
+/* Digital Work section */
 
 .digital-container {
   margin-top: 20px;

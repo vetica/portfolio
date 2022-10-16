@@ -18,32 +18,32 @@
       <button class="mobile-nav-toggle" aria-controls="primary-nav" aria-expanded="false"><span class="sr-only">Menu</span></button>
       <nav>
         <ul id="primary-nav" data-visible="false" class="primary-nav">
-          <li class="active">
+          <li class="target active">
             <a class="nav-link" href="#">
               <span aria-hidden="true"></span>
               Home
             </a>
           </li>
-          <li>
+          <li class="target">
             <a class="nav-link" href="#about">
               <span aria-hidden="true"></span>
               About
             </a>
           </li>
-          <li>
-            <a class="nav-link" href="#work">
+          <li class="target">
+            <a class="nav-link" href="#digital-work">
               <span aria-hidden="true"></span>
               Work
             </a>
           </li>
-          <li>
+          <li class="target">
             <a class="nav-link" href="#resume">
               <span aria-hidden="true"></span>
               Resume
             </a>
           </li>
-          <li>
-            <a class="nav-link" href="#contact">
+          <li class="target">
+            <a class="nav-link last-nav" href="#contact">
               <span aria-hidden="true"></span>
               Contact
             </a>
@@ -73,7 +73,7 @@
       </div>
     </div>
 
-    <div id="work" class="work-section">
+    <div id="digital-work" class="work-section">
       <div class="work-container">
         <h1 class="section-header">Work</h1>
         <div class="digital-container">
@@ -86,7 +86,7 @@
               <p class="card-tags">development</p>
             </div>
             <a href="#" target="_blank">
-              <button class="work-button" role="button">Explore</button>
+              <button id="" class="work-button" role="button">Explore</button>
             </a>
           </div>
           <div class="card-container">
@@ -197,6 +197,16 @@
 
         <div class="graph-section no-line">
           <div class="resume-graph">
+            <h2 class="resume-title">Education</h2>
+            <p class="resume-subtitle smaller-subtitle">Arizona State University</p>
+            <p class="resume-text smaller-text">Design Management - 2009</p>
+            <p class="resume-subtitle smaller-subtitle">Chabot College</p>
+            <p class="resume-text smaller-text">Mass Communications - 2007</p>
+          </div>
+        </div>
+
+        <div class="graph-section no-line">
+          <div class="resume-graph">
             <h2 class="resume-title">SKILLS</h2>
             <p class="resume-subtitle smaller-subtitle">Project Management</p>
             <p class="resume-text smaller-text">
@@ -236,16 +246,6 @@
               <span class="list-divider">&#9725;</span>
               Audacity
             </p>
-          </div>
-        </div>
-
-        <div class="graph-section no-line">
-          <div class="resume-graph">
-            <h2 class="resume-title">Education</h2>
-            <p class="resume-subtitle smaller-subtitle">Arizona State University</p>
-            <p class="resume-text smaller-text">Design Management - 2009</p>
-            <p class="resume-subtitle smaller-subtitle">Chabot College</p>
-            <p class="resume-text smaller-text">Mass Communications - 2007</p>
           </div>
         </div>
       </div>
