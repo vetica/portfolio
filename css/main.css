@@ -15,6 +15,7 @@ html {
   font-size: 16px;
   line-height: 1.4;
   scroll-behavior: smooth;
+  scroll-padding-top: 4rem;
 }
 
 body,
@@ -96,8 +97,8 @@ Custom styles
 /* Navbar */
 
 .nav-container {
-  width: 100%;
-  padding: 20px;
+  width: calc(100vw - 20px);
+  padding: 20px 20px 0 20px;
   margin: 0;
   display: flex;
   flex-direction: row;

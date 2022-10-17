@@ -1,8 +1,64 @@
 // Navbar functionality
 const primaryNav = document.querySelector(".primary-nav");
 const navToggle = document.querySelector(".mobile-nav-toggle");
+const navLink1 = document.querySelector(".link1");
+const navLink2 = document.querySelector(".link2");
+const navLink3 = document.querySelector(".link3");
+const navLink4 = document.querySelector(".link4");
+const navLink5 = document.querySelector(".link5");
 
 navToggle.addEventListener("click", () => {
+  const visibility = primaryNav.getAttribute("data-visible");
+  if (visibility === "false") {
+    primaryNav.setAttribute("data-visible", true);
+    navToggle.setAttribute("aria-expanded", true);
+  } else if (visibility === "true") {
+    primaryNav.setAttribute("data-visible", false);
+    navToggle.setAttribute("aria-expanded", false);
+  }
+});
+
+navLink1.addEventListener("click", () => {
+  const visibility = primaryNav.getAttribute("data-visible");
+  if (visibility === "false") {
+    primaryNav.setAttribute("data-visible", true);
+    navToggle.setAttribute("aria-expanded", true);
+  } else if (visibility === "true") {
+    primaryNav.setAttribute("data-visible", false);
+    navToggle.setAttribute("aria-expanded", false);
+  }
+});
+navLink2.addEventListener("click", () => {
+  const visibility = primaryNav.getAttribute("data-visible");
+  if (visibility === "false") {
+    primaryNav.setAttribute("data-visible", true);
+    navToggle.setAttribute("aria-expanded", true);
+  } else if (visibility === "true") {
+    primaryNav.setAttribute("data-visible", false);
+    navToggle.setAttribute("aria-expanded", false);
+  }
+});
+navLink3.addEventListener("click", () => {
+  const visibility = primaryNav.getAttribute("data-visible");
+  if (visibility === "false") {
+    primaryNav.setAttribute("data-visible", true);
+    navToggle.setAttribute("aria-expanded", true);
+  } else if (visibility === "true") {
+    primaryNav.setAttribute("data-visible", false);
+    navToggle.setAttribute("aria-expanded", false);
+  }
+});
+navLink4.addEventListener("click", () => {
+  const visibility = primaryNav.getAttribute("data-visible");
+  if (visibility === "false") {
+    primaryNav.setAttribute("data-visible", true);
+    navToggle.setAttribute("aria-expanded", true);
+  } else if (visibility === "true") {
+    primaryNav.setAttribute("data-visible", false);
+    navToggle.setAttribute("aria-expanded", false);
+  }
+});
+navLink5.addEventListener("click", () => {
   const visibility = primaryNav.getAttribute("data-visible");
   if (visibility === "false") {
     primaryNav.setAttribute("data-visible", true);
