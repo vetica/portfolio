@@ -258,7 +258,7 @@ ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: stretch;
   gap: 30px;
 }
 
@@ -572,6 +572,11 @@ Media Queries
   }
   .graph-section {
     padding-left: 5%;
+  }
+  .footer-text {
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
   }
 }
 
