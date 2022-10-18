@@ -15,7 +15,7 @@ html {
   font-size: 16px;
   line-height: 1.4;
   scroll-behavior: smooth;
-  scroll-padding-top: 5rem;
+  scroll-padding-top: 5.5rem;
 }
 
 body,
@@ -434,6 +434,7 @@ ul {
 .resume-button {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .resume-dl {
@@ -467,6 +468,11 @@ ul {
 .resume-dl:active {
   box-shadow: none;
   transform: translateY(0);
+}
+
+.dl-link {
+  text-decoration: none;
+  color: inherit;
 }
 
 /* Contact */
