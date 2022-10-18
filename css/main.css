@@ -472,7 +472,12 @@ ul {
 
 .dl-link {
   text-decoration: none;
-  color: inherit;
+  color: white;
+}
+
+.dl-container a {
+  text-decoration: none;
+  color: white;
 }
 
 /* Contact */
