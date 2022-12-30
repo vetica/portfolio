@@ -443,7 +443,7 @@ ul {
   border: 2px solid #ffc627;
   border-radius: 10px;
   box-sizing: border-box;
-  color: inherit;
+  color: white;
   cursor: pointer;
   display: inline-block;
   font-size: 12px;
@@ -477,7 +477,7 @@ ul {
 
 .dl-container a {
   text-decoration: none;
-  color: white;
+  color: white !important;
 }
 
 /* Contact */
