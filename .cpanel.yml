@@ -1,0 +1,10 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home4/poetryhe/public_html/spencerholladay - /bin/cp -R .vscode $DEPLOYPATH
+    - /bin/cp -R pages $DEPLOYPATH
+    - /bin/cp -R css $DEPLOYPATH
+    - /bin/cp -R img $DEPLOYPATH
+    - /bin/cp -R js $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp 404.html $DEPLOYPATH
