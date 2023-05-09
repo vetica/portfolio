@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home4/poetryhe/public_html/spencerholladay
+    - /bin/cp index.html $DEPLOYPATH
