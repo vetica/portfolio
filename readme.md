@@ -1,4 +1,4 @@
-# Learning JS tasks
+# Portfolio and resume
 
 This repository contains my portfolio website showcasing projects I worked on while working for the USA TODAY Network.
 
