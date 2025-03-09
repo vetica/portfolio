@@ -480,6 +480,31 @@ ul {
 	color: white !important;
 }
 
+/* Print pages */
+
+.print-page-section {
+	margin: 0 6vw;
+	padding-top: 4vw;
+}
+
+.print-title {
+	font-size: calc(16px + 0.23vw - 0.7px);
+	font-weight: 800;
+	color: #ffc627;
+	margin-top: 3em;
+}
+
+.print-subtitle {
+	font-size: calc(26px + 0.23vw - 0.7px);
+	font-weight: 800;
+	margin-bottom: 10px;
+}
+
+.print-text {
+	font-size: calc(14px + 0.23vw - 0.7px);
+	font-weight: 200;
+}
+
 /* Contact */
 
 .contact-icon {
@@ -538,7 +563,6 @@ ul {
 .img-print {
 	width: 100%;
 	min-height: 300px;
-	object-fit: contain;
 }
 
 @media (max-width: 1200px) {
