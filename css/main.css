@@ -505,6 +505,12 @@ ul {
 	font-weight: 200;
 }
 
+@media (max-width: 800px) {
+	.print-title {
+		margin-top: 5em;
+	}
+}
+
 /* Contact */
 
 .contact-icon {
